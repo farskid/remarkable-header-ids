@@ -1,11 +1,14 @@
 {
   "name": "remarkable-header-ids",
   "version": "0.1.0",
-  "description": "Adds IDs and anchor links to headers based on header's text content",
+  "description": "Remarkable plugin to auto generate unique header ids, highly customizable",
   "author": {
     "email": "farskid@gmail.com",
     "name": "Farzad Yousefzadeh",
     "url": "https://twitter.com/farzad_yz"
+  },
+  "repository": {
+    "url": "https://github.com/farskid/remarkable-header-ids"
   },
   "keywords": [
     "remarkable",
