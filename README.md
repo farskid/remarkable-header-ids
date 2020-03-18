@@ -25,12 +25,12 @@ const markdownParser = new Remarkable().use(
 
 **Params**
 
-| Option name     | Type                     | defaultValue                 |
-| --------------- | ------------------------ | ---------------------------- |
-| levels          | (1                       | 2                            | 3 | 4 | 5 | 6)[] | [1, 2, 3, 4, 5, 6] |
-| anchorClassName | string                   | "header-anchor"              |
-| anchorText      | string                   | "#"                          |
-| headerId        | (slug: string) => string | (slug) => `heading-#${slug}` |
+| Option name     | Type                       | defaultValue               |
+| --------------- | -------------------------- | -------------------------- |
+| levels          | `number[]`                 | [1, 2, 3, 4, 5, 6]         |
+| anchorClassName | `string`                   | "header-anchor"            |
+| anchorText      | `string`                   | "#"                        |
+| headerId        | `(slug: string) => string` | slug => "heading-#" + slug |
 
 **Example**
 
