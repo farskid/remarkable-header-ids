@@ -1,0 +1,23 @@
+{
+  "name": "remarkable-header-ids",
+  "version": "0.1.0",
+  "description": "Adds IDs and anchor links to headers based on header's text content",
+  "author": {
+    "email": "farskid@gmail.com",
+    "name": "Farzad Yousefzadeh",
+    "url": "https://twitter.com/farzad_yz"
+  },
+  "keywords": [
+    "remarkable",
+    "Remarkable",
+    "remarkable-plugin",
+    "header-ids",
+    "header-anchors",
+    "scroll-to-header"
+  ],
+  "scripts": {
+    "test": "cd ./test && node parse.js"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
