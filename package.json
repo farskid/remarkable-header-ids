@@ -1,6 +1,6 @@
 {
   "name": "remarkable-header-ids",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remarkable plugin to auto generate unique header ids, highly customizable",
   "author": {
     "email": "farskid@gmail.com",
