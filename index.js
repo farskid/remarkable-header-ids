@@ -37,11 +37,16 @@ function HeaderIds(options /*:Partial<Options>*/) {
       if (appliedOptions.levels.indexOf(hLevel) !== -1) {
         return `<h${hLevel} id="${appliedOptions.headerId(
           slug
-        )}"><a class="${
-          appliedOptions.anchorClassName
-        }" id="${slug}" href="${href}">${
-          appliedOptions.anchorText
-        }</a>`;
+        )}">` 
+        + (
+          appliedOptions.anchorText ?
+            `<a class="${
+              appliedOptions.anchorClassName
+            }" id="${slug}" href="${href}">${
+              appliedOptions.anchorText
+            }</a>`
+          : ''
+        );
       }
 
       return originalOpen(tokens, idx);
