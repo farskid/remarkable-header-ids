@@ -25,12 +25,12 @@ const markdownParser = new Remarkable().use(
 
 **Params**
 
-| Option name     | Type                       | defaultValue               |
-| --------------- | -------------------------- | -------------------------- |
-| levels          | `number[]`                 | [1, 2, 3, 4, 5, 6]         |
-| anchorClassName | `string`                   | "header-anchor"            |
-| anchorText      | `string`                   | "#"                        |
-| headerId        | `(slug: string) => string` | slug => "heading-#" + slug |
+| Option name     | Type                       | defaultValue               | Note                                                               |
+| --------------- | -------------------------- | -------------------------- | ------------------------------------------------------------------ |
+| levels          | `number[]`                 | [1, 2, 3, 4, 5, 6]         |                                                                    |
+| anchorClassName | `string`                   | "header-anchor"            |                                                                    |
+| anchorText      | `string`                   | "#"                        | When `anchorText` is empty, the anchor will not be rendered at all |
+| headerId        | `(slug: string) => string` | slug => "heading-#" + slug |                                                                    |
 
 **Example**
 
@@ -43,7 +43,8 @@ const parser = new Remarkable().use(
     levels: [2], // only transform h2
     anchorClassName: "this-is-anchor-in-header",
     anchorText: "AnchorText",
-    headerId: slug => `header-that-has-this-anchor-${slug}`
+    headerId: (slug) =>
+      `header-that-has-this-anchor-${slug}`,
   })
 );
 ```
