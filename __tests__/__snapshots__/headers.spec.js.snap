@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`headers Renders anchor tags for all headers successfully 1`] = `
+"<h1 id=\\"header-that-has-this-anchor-h1\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"header-that-has-this-anchor-h2\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h2\\" href=\\"#h2\\">#</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"header-that-has-this-anchor-h3\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h3\\" href=\\"#h3\\">#</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"header-that-has-this-anchor-h4\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"header-that-has-this-anchor-h5\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h5\\" href=\\"#h5\\">#</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"header-that-has-this-anchor-h6\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders combination of levels 1`] = `
+"<h1 id=\\"header-that-has-this-anchor-h1\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"header-that-has-this-anchor-h4\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"header-that-has-this-anchor-h6\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H1 anchors 1`] = `
+"<h1 id=\\"header-that-has-this-anchor-h1\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H2 anchors 1`] = `
+"<h1>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"header-that-has-this-anchor-h2\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h2\\" href=\\"#h2\\">#</a>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H3 anchors 1`] = `
+"<h1>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"header-that-has-this-anchor-h3\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h3\\" href=\\"#h3\\">#</a>H3</h3>
+<p>Some text for h3</p>
+<h4>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H4 anchors 1`] = `
+"<h1>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"header-that-has-this-anchor-h4\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H5 anchors 1`] = `
+"<h1>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"header-that-has-this-anchor-h5\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h5\\" href=\\"#h5\\">#</a>H5</h5>
+<p>Some text for h5</p>
+<h6>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`headers Renders only H6 anchors 1`] = `
+"<h1>H1</h1>
+<p>Some text for h1</p>
+<h2>H2</h2>
+<p>Some text for h2</p>
+<h3>H3</h3>
+<p>Some text for h3</p>
+<h4>H4</h4>
+<p>Some text for h4</p>
+<h5>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"header-that-has-this-anchor-h6\\"><a class=\\"this-is-anchor-in-header\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;

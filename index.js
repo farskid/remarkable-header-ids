@@ -11,20 +11,19 @@ const defaultOptions /*: Options */ = {
   levels: [1, 2, 3, 4, 5, 6],
   anchorClassName: "header-anchor",
   anchorText: "#",
-  headerId: (slug) /*:string*/ => `heading-#${slug}`
+  headerId: (slug) /*:string*/ => `heading-#${slug}`,
 };
 
 function HeaderIds(options /*:Partial<Options>*/) {
   const appliedOptions /*: Options*/ = {
     ...defaultOptions,
-    ...options
+    ...options,
   };
 
-  return function(remarkable /*:Remarkable*/) {
+  return function (remarkable /*:Remarkable*/) {
     const originalOpen =
       remarkable.renderer.rules.heading_open;
-
-    remarkable.renderer.rules.heading_open = function(
+    remarkable.renderer.rules.heading_open = function (
       tokens,
       idx /*:number*/
     ) {
@@ -35,17 +34,13 @@ function HeaderIds(options /*:Partial<Options>*/) {
 
       // Only anchorize supported header levels
       if (appliedOptions.levels.indexOf(hLevel) !== -1) {
-        return `<h${hLevel} id="${appliedOptions.headerId(
-          slug
-        )}">` 
-        + (
-          appliedOptions.anchorText ?
-            `<a class="${
-              appliedOptions.anchorClassName
-            }" id="${slug}" href="${href}">${
-              appliedOptions.anchorText
-            }</a>`
-          : ''
+        return (
+          `<h${hLevel} id="${appliedOptions.headerId(
+            slug
+          )}">` +
+          (appliedOptions.anchorText
+            ? `<a class="${appliedOptions.anchorClassName}" id="${slug}" href="${href}">${appliedOptions.anchorText}</a>`
+            : "")
         );
       }
 

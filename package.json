@@ -1,6 +1,6 @@
 {
   "name": "remarkable-header-ids",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Remarkable plugin to auto generate unique header ids, highly customizable",
   "author": {
     "email": "farskid@gmail.com",
@@ -19,8 +19,13 @@
     "scroll-to-header"
   ],
   "scripts": {
-    "test": "cd ./test && node parse.js"
+    "test": "jest",
+    "prepublish": "yarn test"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "remarkable": "^2.0.1"
+  }
 }

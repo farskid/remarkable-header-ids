@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`options renders custom anchorClassName 1`] = `
+"<h1 id=\\"heading-#h1\\"><a class=\\"test-anchor-className\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"heading-#h2\\"><a class=\\"test-anchor-className\\" id=\\"h2\\" href=\\"#h2\\">#</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"heading-#h3\\"><a class=\\"test-anchor-className\\" id=\\"h3\\" href=\\"#h3\\">#</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"heading-#h4\\"><a class=\\"test-anchor-className\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"heading-#h5\\"><a class=\\"test-anchor-className\\" id=\\"h5\\" href=\\"#h5\\">#</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"heading-#h6\\"><a class=\\"test-anchor-className\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`options renders custom anchorText 1`] = `
+"<h1 id=\\"heading-#h1\\"><a class=\\"header-anchor\\" id=\\"h1\\" href=\\"#h1\\">test-anchor-text</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"heading-#h2\\"><a class=\\"header-anchor\\" id=\\"h2\\" href=\\"#h2\\">test-anchor-text</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"heading-#h3\\"><a class=\\"header-anchor\\" id=\\"h3\\" href=\\"#h3\\">test-anchor-text</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"heading-#h4\\"><a class=\\"header-anchor\\" id=\\"h4\\" href=\\"#h4\\">test-anchor-text</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"heading-#h5\\"><a class=\\"header-anchor\\" id=\\"h5\\" href=\\"#h5\\">test-anchor-text</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"heading-#h6\\"><a class=\\"header-anchor\\" id=\\"h6\\" href=\\"#h6\\">test-anchor-text</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`options renders custom headerId 1`] = `
+"<h1 id=\\"look-I-have-custom-header-id-with-slug-h1\\"><a class=\\"header-anchor\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"look-I-have-custom-header-id-with-slug-h2\\"><a class=\\"header-anchor\\" id=\\"h2\\" href=\\"#h2\\">#</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"look-I-have-custom-header-id-with-slug-h3\\"><a class=\\"header-anchor\\" id=\\"h3\\" href=\\"#h3\\">#</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"look-I-have-custom-header-id-with-slug-h4\\"><a class=\\"header-anchor\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"look-I-have-custom-header-id-with-slug-h5\\"><a class=\\"header-anchor\\" id=\\"h5\\" href=\\"#h5\\">#</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"look-I-have-custom-header-id-with-slug-h6\\"><a class=\\"header-anchor\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`options renders with all custom options 1`] = `
+"<h1 id=\\"look-I-have-custom-header-id-with-slug-h1\\"><a class=\\"test-anchor-className\\" id=\\"h1\\" href=\\"#h1\\">test-anchor-text</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"look-I-have-custom-header-id-with-slug-h2\\"><a class=\\"test-anchor-className\\" id=\\"h2\\" href=\\"#h2\\">test-anchor-text</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"look-I-have-custom-header-id-with-slug-h3\\"><a class=\\"test-anchor-className\\" id=\\"h3\\" href=\\"#h3\\">test-anchor-text</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"look-I-have-custom-header-id-with-slug-h4\\"><a class=\\"test-anchor-className\\" id=\\"h4\\" href=\\"#h4\\">test-anchor-text</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"look-I-have-custom-header-id-with-slug-h5\\"><a class=\\"test-anchor-className\\" id=\\"h5\\" href=\\"#h5\\">test-anchor-text</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"look-I-have-custom-header-id-with-slug-h6\\"><a class=\\"test-anchor-className\\" id=\\"h6\\" href=\\"#h6\\">test-anchor-text</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
+
+exports[`options renders with default options 1`] = `
+"<h1 id=\\"heading-#h1\\"><a class=\\"header-anchor\\" id=\\"h1\\" href=\\"#h1\\">#</a>H1</h1>
+<p>Some text for h1</p>
+<h2 id=\\"heading-#h2\\"><a class=\\"header-anchor\\" id=\\"h2\\" href=\\"#h2\\">#</a>H2</h2>
+<p>Some text for h2</p>
+<h3 id=\\"heading-#h3\\"><a class=\\"header-anchor\\" id=\\"h3\\" href=\\"#h3\\">#</a>H3</h3>
+<p>Some text for h3</p>
+<h4 id=\\"heading-#h4\\"><a class=\\"header-anchor\\" id=\\"h4\\" href=\\"#h4\\">#</a>H4</h4>
+<p>Some text for h4</p>
+<h5 id=\\"heading-#h5\\"><a class=\\"header-anchor\\" id=\\"h5\\" href=\\"#h5\\">#</a>H5</h5>
+<p>Some text for h5</p>
+<h6 id=\\"heading-#h6\\"><a class=\\"header-anchor\\" id=\\"h6\\" href=\\"#h6\\">#</a>H6</h6>
+<p>Some text for h6</p>
+"
+`;
